@@ -1,6 +1,6 @@
-import LinearLinkedList from "../index";
+import Node from "../node";
 
-const countOccurrences = (head: LinearLinkedList["head"], value: number): number => {
+const countOccurrences = (head: Node | null, value: number): number => {
 	/*
 		Counts the number of times a given int occurs in a list.
 
