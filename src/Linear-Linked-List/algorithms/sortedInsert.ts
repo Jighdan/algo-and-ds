@@ -10,7 +10,7 @@ import Node from "../node";
 const sortedInsert = (head: Node | null, value: number): Node => {
 	if (head === null) {
 		const node: Node = { value, next: null };
-		head = node;
+		return node;
 	};
 
 	if ((head as Node).value > value) {
