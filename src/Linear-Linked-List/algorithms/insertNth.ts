@@ -3,7 +3,7 @@
 	is out of bounds, add the node to the tail.
 
 	IN  -> (head: Node | null, value: number, index: number)
-	OUT -> (head: Node | null)
+	OUT -> (head: Node)
 */
 
 import Node from "../node";

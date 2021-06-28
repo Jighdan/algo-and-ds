@@ -21,7 +21,7 @@ describe("Liner Linked List: InsertNth", () => {
 		const emptyLinearLinkedList = new LinearLinkedList();
 		emptyLinearLinkedList.head = insertNth(emptyLinearLinkedList.head, 0, 4);
 
-		expect(emptyLinearLinkedList.head).to.be.equal(null);
+		expect((emptyLinearLinkedList.head as Node).value).to.be.equal(0);
 	});
 
 	it("Inserts a node to the desired index", () => {
