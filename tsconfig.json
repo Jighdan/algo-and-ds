@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ES3",
+		"module": "commonjs",
+		"rootDir": "./",
+		"outDir": "./build",
+		"esModuleInterop": true,
+		"strict": true
+	},
+	"exclude": [
+		"./tests/",
+		"./node_modules/"
+	]
+}

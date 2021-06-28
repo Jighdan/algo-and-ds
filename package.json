@@ -1,0 +1,27 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "A repository to hold data structures practices",
+  "main": "./src/index.ts",
+  "repository": "https://github.com/Jighdan/data-structures.git",
+  "author": {
+    "name": "Reinny Almonte",
+    "email": "reynsth@gmail.com",
+    "url": "https://reinny-almonte.vercel.app/"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register './src/**/*.test.ts'"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.19",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.12.5"
+  }
+}
