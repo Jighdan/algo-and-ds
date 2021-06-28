@@ -13,6 +13,11 @@ const sortedInsert = (head: Node | null, value: number): Node => {
 		head = node;
 	};
 
+	if ((head as Node).value > value) {
+		const node: Node = { value, next: head };
+		return node;
+	};
+
 	let currentNode: Node | null = head;
 
 	while(currentNode !== null) {
