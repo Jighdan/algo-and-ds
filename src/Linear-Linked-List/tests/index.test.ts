@@ -2,7 +2,7 @@ import { expect } from "chai";
 import Node from "../node";
 import LinearLinkedList from "../index";
 
-describe("Linear Linked List", () => {
+describe("Linear Linked List: Base", () => {
 	it("Initializes an empty Linear Linked List", () => {
 		const linearLinkedList = new LinearLinkedList();
 
