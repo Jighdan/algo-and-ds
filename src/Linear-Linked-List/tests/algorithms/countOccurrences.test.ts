@@ -2,7 +2,7 @@ import { expect } from "chai";
 import LinearLinkedList from "../../index";
 import countOccurrences from "../../algorithms/countOccurrences";
 
-describe("Linear Linked List: Count", () => {
+describe("Linear Linked List: Count Occurrences", () => {
 	const linearLinkedList = new LinearLinkedList();
 
 	it("Works when there's no head", () => {

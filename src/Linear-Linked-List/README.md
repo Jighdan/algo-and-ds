@@ -12,7 +12,7 @@ Removes and return the last node from the Linked List.
 Returns an array with all the values from the Linked List.
 
 ## Algorithms
-### Count
+### Count Occurrences
 Counts the number of times a given int occurs in a list.
 
 ### GetNth
