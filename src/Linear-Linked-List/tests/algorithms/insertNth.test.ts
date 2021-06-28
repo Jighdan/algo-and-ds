@@ -5,9 +5,7 @@ import insertNth from "../../algorithms/insertNth";
 
 describe("Liner Linked List: InsertNth", () => {
 	const linearLinkedList = new LinearLinkedList();
-	linearLinkedList.push(1);
-	linearLinkedList.push(2);
-	linearLinkedList.push(3);
+	linearLinkedList.build([1, 2, 3]);
 
 	it("Inserts a new node at index 0", () => {
 		linearLinkedList.head = insertNth(linearLinkedList.head, 0, 0);

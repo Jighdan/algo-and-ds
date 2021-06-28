@@ -37,6 +37,10 @@ class LinearLinkedList {
 
 		return values;
 	};
+
+	public build(values: Array<number>): void {
+		values.forEach(value => this.push(value));
+	};
 };
 
 export default LinearLinkedList;

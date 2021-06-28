@@ -11,19 +11,14 @@ describe("Linear Linked List: Count Occurrences", () => {
 	});
 
 	it("Works when there are no matches", () => {
-		linearLinkedList.push(1);
-		linearLinkedList.push(2);
-		linearLinkedList.push(3);
+		linearLinkedList.build([1, 2, 3]);
 		const count = countOccurrences(linearLinkedList.head, 0);
 
 		expect(count).to.equal(0);
 	});
 
 	it("Matches occurrences", () => {
-		linearLinkedList.push(4);
-		linearLinkedList.push(4);
-		linearLinkedList.push(5);
-		linearLinkedList.push(6);
+		linearLinkedList.build([4, 4, 5, 6]);
 		
 		const twoCount = countOccurrences(linearLinkedList.head, 4);
 		expect(twoCount).to.equal(2);

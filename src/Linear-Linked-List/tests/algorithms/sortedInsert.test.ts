@@ -5,9 +5,7 @@ import sortedInsert from "../../algorithms/sortedInsert";
 
 describe("Linear Linked List: SortedInsert", () => {
 	const linearLinkedList = new LinearLinkedList();
-	linearLinkedList.push(1);
-	linearLinkedList.push(3);
-	linearLinkedList.push(5);
+	linearLinkedList.build([1, 3, 5]);
 
 	it("Handles null head", () => {
 		const emptyLinearLinkedList = new LinearLinkedList();

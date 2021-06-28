@@ -5,9 +5,7 @@ import getNth from "../../algorithms/getNth";
 
 describe("Linear Linked List: GetNth", () => {
 	const linearLinkedList = new LinearLinkedList();
-	linearLinkedList.push(1);
-	linearLinkedList.push(2);
-	linearLinkedList.push(3);
+	linearLinkedList.build([1, 2, 3]);
 
 	it("Returns null on empty Node", () => {
 		const emptyLinearLinkedList = new LinearLinkedList();

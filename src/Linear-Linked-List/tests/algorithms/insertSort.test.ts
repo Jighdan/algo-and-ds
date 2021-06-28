@@ -1,5 +1,4 @@
 import { expect } from "chai";
-import Node from "../../node";
 import LinearLinkedList from "../../index";
 import insertSort from "../../algorithms/insertSort";
 
