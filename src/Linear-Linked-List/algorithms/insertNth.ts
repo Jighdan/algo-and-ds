@@ -8,15 +8,11 @@
 
 import Node from "../node";
 
-const insertNth = (head: Node | null, value: number, index: number): Node | null => {
+const insertNth = (head: Node | null, value: number, index: number): Node => {
 	// If the head is null return null
 	// If the index is 0, swap the head and add the node in that index
 
-	if (head === null) {
-		return null;
-	};
-
-	if (index === 0) {
+	if (head === null || index === 0) {
 		const node: Node = { value, next: head };
 		return node;
 	};
