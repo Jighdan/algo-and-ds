@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import LinearLinkedList from "../../index";
-import insertSort from "../../algorithms/insertSort";
+import insertSort from "../../methods/insertSort";
 
 describe("Linear Linked List: InsertSort", () => {
 	it("Handles null head", () => {

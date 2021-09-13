@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import Node from "../../node";
 import LinearLinkedList from "../../index";
-import append from "../../algorithms/append";
+import append from "../../methods/append";
 
 describe("Linear Linked List: Append", () => {
 	it("Appends two lists together", () => {

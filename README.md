@@ -1,14 +1,18 @@
-# Data Structures
-This is a repository to practice  handful of data structures and their algorithms.
+# Algorithms and Data Structures
+
+This is a repository to practice a handful of algorithms and data structures implementations.
 
 ## Directory
-- [Linear Linked List](src/Linear-Linked-List)
+
+* [Data Structures](data-structures/)
+	1. [Linear Linked List](data-structures/linear-linked-list)
 
 ## Scripts
-```bash
-	# Installing dependencies
-	$ yarn install;
 
-	# Running tests
-	$ yarn test;
+```bash
+ # Installing dependencies
+ $ yarn install;
+
+ # Running tests
+ $ yarn test;
 ```

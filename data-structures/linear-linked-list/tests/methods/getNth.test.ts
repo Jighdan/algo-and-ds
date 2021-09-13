@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import Node from "../../node";
 import LinearLinkedList from "../../index";
-import getNth from "../../algorithms/getNth";
+import getNth from "../../methods/getNth";
 
 describe("Linear Linked List: GetNth", () => {
 	const linearLinkedList = new LinearLinkedList();

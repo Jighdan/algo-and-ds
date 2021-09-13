@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import LinearLinkedList from "../../index";
-import countOccurrences from "../../algorithms/countOccurrences";
+import countOccurrences from "../../methods/countOccurrences";
 
 describe("Linear Linked List: Count Occurrences", () => {
 	const linearLinkedList = new LinearLinkedList();
