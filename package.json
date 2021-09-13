@@ -11,7 +11,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register './src/**/*.test.ts'"
+    "test:algo": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register './algorithms/**/*.test.ts'",
+    "test:ds": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register './data-structures/**/*.test.ts'",
+    "test": "yarn test:algo; yarn test:ds"
   },
   "dependencies": {
     "chai": "^4.3.4",
